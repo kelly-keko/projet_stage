@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+background-color: blue;
+
+
+}
+
+.enregistrement{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+  
+ 
+    
+}
+
+.login{
+   
+    
+}
+
+.menu{
+display: flex;
+justify-content: space-around;
+color: blanchedalmond;
+text-decoration: none;
+list-style: none;
+}  
+.menu a {
+color: blanchedalmond;
+
+}
+
+img{
+    width: 4% ;
+    margin-top: 5px;
+  
+}
+
+.img2{
+    width: 2% ;
+    text-align:"left; 
+   
+}
+
+.img3{
+    width: 100%;
+    margin-right: 50px;
+    height: 200px;
+}
+
+.img4{
+    a
+}
