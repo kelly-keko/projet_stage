@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -5,24 +9,44 @@ body{
     list-style: none;
 }
 
-nav{
-background-color: blue;
-
-
+header{
+    background-color:dodgerblue;
+    padding: 10px;
 }
 
-.enregistrement{
-    margin: 10px;
+#menu{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
   
- 
-    
 }
 
-.login{
+#menu img{
+    height: 50px; 
+}
+
+#option{
+    margin-bottom: 10px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+#option a{
+    color: aliceblue;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
    
-    
+}
+
+nav a{
+    color: aliceblue;
 }
 
 .menu{
@@ -45,16 +69,140 @@ img{
 
 .img2{
     width: 2% ;
-    text-align:"left; 
+    text-align:"left"; 
    
 }
 
-.img3{
+#pub{
     width: 100%;
-    margin-right: 50px;
-    height: 200px;
+    height: 250px;
 }
 
-.img4{
-    a
+.presentation{
+    width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 5fr; 
+   height: fit-content;
+   
+}
+
+.plateforme{
+    height: 100%;
+    
+}
+
+.entreprise{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: flex-start
+}
+
+#ordinateur{
+    width: 50%;
+    height: 50%;
+}
+
+.text{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#titre{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+.domaines{
+    background-color:rgb(241, 121, 116);
+}
+
+.filiers{
+   
+}
+
+.offres{
+   height: 60%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.offre1{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 20%;
+    margin-left: 5%;
+
+}       
+
+.photo1{
+    height: 60%;
+    width: 100%;
+}
+
+.description{
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}   
+
+.description h3,
+.description p,
+.description span{
+    margin: 0px;
+}
+.partenaires{
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+}
+
+#nospartenaires{
+    background-color: aquamarine;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.parties{
+    width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+   height: fit-content;
+   background-color: rgb(79, 151, 127);
+   height: 250px;
+   
+}
+
+.etablissements{
+    text-align: center;
+}
+
+.nosentreprises{
+    text-align: center ;
+}
+
+.shool{
+    width: 50px;
+    height: 50px;
+}
+
+.newsletter{
+    width: 100%;
+    grid-template-columns: 1fr 1fr; 
+    height: fit-content;
+    background-color: rgb(79, 151, 127);
+    height: 250px;
+    text-align: center;
 }
