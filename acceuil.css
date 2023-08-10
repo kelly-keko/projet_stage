@@ -76,6 +76,7 @@ img{
 #pub{
     width: 100%;
     height: 250px;
+    padding: 5px;
 }
 
 .presentation{
@@ -95,12 +96,15 @@ img{
     display: flex;
     height: 40%;
     width: 100%;
-    justify-content: flex-start
+    justify-content: flex-start;
+    background-color: #f3f1f1;
 }
 
 #ordinateur{
     width: 50%;
     height: 50%;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .text{
@@ -109,6 +113,7 @@ img{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 5px;
 
 }
 
@@ -120,11 +125,11 @@ img{
 
 
 .domaines{
-    background-color:rgb(241, 121, 116);
+    background-color: white;
 }
 
-.filiers{
-   
+.srch{
+   margin: 0 2px;
 }
 
 .offres{
@@ -161,7 +166,7 @@ img{
     margin: 0px;
 }
 .partenaires{
-    height: 90vh;
+    height: 48vh;
     width: 100%;
     background-color: white;
 }
@@ -170,7 +175,6 @@ img{
     background-color: aquamarine;
     text-align: center;
     height: 50px;
-    margin-bottom: 20px;
     margin-top: 10px;
     padding-top: 20px;
 }
@@ -180,8 +184,8 @@ img{
    display: grid;
    grid-template-columns: 1fr 1fr; 
    height: fit-content;
-   background-color: rgb(79, 151, 127);
-   height: 250px;
+   background-color: rgb(154, 216, 195);
+   height: 180px;
    
 }
 
@@ -194,15 +198,69 @@ img{
 }
 
 .shool{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .newsletter{
     width: 100%;
-    grid-template-columns: 1fr 1fr; 
-    height: fit-content;
-    background-color: rgb(79, 151, 127);
-    height: 250px;
+    /*grid-template-columns: 1fr 1fr; 
+    height: fit-content;*/
+    background-color: rgb(154, 216, 195);
+    height: 115px;
+   
+}
+
+.newsletter p{
     text-align: center;
+    padding-top: 10px;
+}
+
+.newsletter input, 
+.newsletter button{
+    
+    
+}
+
+.infonews{
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+}
+
+.inscription{
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+}
+
+.footer{
+
+}
+
+.donnees{
+    height: 35vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: antiquewhite;
+    justify-content: center;
+    background-color: black;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin: 3px 0;
+}
+
+
+.categories {
+    text-transform: lowercase;
+    text-align: justify;
+}
+
+.nouscontacter{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: black;
 }
